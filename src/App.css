@@ -1,0 +1,20 @@
+
+/* Custom Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+  animation: fadeIn 1s ease both;
+}
+.delay-200 { animation-delay: 0.2s; }
+.delay-400 { animation-delay: 0.4s; }
+
+
+/* Testimonial Card (for reference, use these classes in JSX):
+   className="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-6 border border-gray-200 dark:border-gray-700 transition"
+   className="text-lg italic mb-2 text-gray-700 dark:text-gray-200"
+   className="font-semibold text-blue-600 dark:text-blue-400"
+   className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full shadow-lg hover:from-blue-700 hover:to-purple-700 transition"
+   className="flex flex-col items-center justify-center min-h-[60vh] text-center space-y-6"
+*/
